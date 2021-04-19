@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "expect-puppeteer": "^4.4.0",
-    "jest": "^26.6.3",
+    "jest": "^26.0.0",
     "puppeteer": "1.20.0"
   },
   "jest": {
