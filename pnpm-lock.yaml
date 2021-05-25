@@ -3,12 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   expect-puppeteer: ^5.0.0
   jest: ^26.6.3
-  puppeteer: 9.0.0
+  puppeteer: 9.1.1
 
 dependencies:
   expect-puppeteer: 5.0.0
   jest: 26.6.3
-  puppeteer: 9.0.0
+  puppeteer: 9.1.1
 
 packages:
 
@@ -2945,8 +2945,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /puppeteer/9.0.0:
-    resolution: {integrity: sha512-Avu8SKWQRC1JKNMgfpH7d4KzzHOL/A65jRYrjNU46hxnOYGwqe4zZp/JW8qulaH0Pnbm5qyO3EbSKvqBUlfvkg==}
+  /puppeteer/9.1.1:
+    resolution: {integrity: sha512-W+nOulP2tYd/ZG99WuZC/I5ljjQQ7EUw/jQGcIb9eu8mDlZxNY2SgcJXTLG9h5gRvqA3uJOe4hZXYsd3EqioMw==}
     engines: {node: '>=10.18.1'}
     requiresBuild: true
     dependencies:

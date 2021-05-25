@@ -13,7 +13,7 @@
   "dependencies": {
     "expect-puppeteer": "^5.0.0",
     "jest": "^26.6.3",
-    "puppeteer": "9.0.0"
+    "puppeteer": "9.1.1"
   },
   "jest": {
     "setupFilesAfterEnv": [
