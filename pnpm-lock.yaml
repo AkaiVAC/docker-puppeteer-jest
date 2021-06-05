@@ -1,11 +1,15 @@
 lockfileVersion: 5.3
 
 specifiers:
-dependencies:
-  expect-puppeteer: 5.0.0
+  expect-puppeteer: ^5.0.0
   jest: ^27.0.0
   puppeteer: 9.1.1
-  
+
+dependencies:
+  expect-puppeteer: 5.0.0
+  jest: 27.0.0
+  puppeteer: 9.1.1
+
 packages:
 
   /@babel/code-frame/7.12.13:
@@ -1186,19 +1190,6 @@ packages:
   /exit/0.1.2:
     resolution: {integrity: sha1-BjJjj42HfMghB9MKD/8aF8uhzQw=}
     engines: {node: '>= 0.8.0'}
-    dev: false
-
-  /expand-brackets/2.1.4:
-    resolution: {integrity: sha1-t3c14xXOMPa27/D4OwQVGiJEliI=}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      debug: 2.6.9
-      define-property: 0.2.5
-      extend-shallow: 2.0.1
-      posix-character-classes: 0.1.1
-      regex-not: 1.0.2
-      snapdragon: 0.8.2
-      to-regex: 3.0.2
     dev: false
 
   /expect-puppeteer/5.0.0:
@@ -2856,6 +2847,7 @@ packages:
 
   /uuid/3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
+    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     hasBin: true
     dev: false
 
